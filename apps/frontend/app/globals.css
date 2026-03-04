@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 dark:bg-bg dark:text-slate-50;
+}
+
+.glass {
+  @apply bg-white/70 dark:bg-white/5 backdrop-blur-xl border border-white/20;
+}
